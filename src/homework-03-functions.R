@@ -6,3 +6,7 @@
 
                                 ##FUNCTIONS##
 
+##Vektorgeneráló függvény a II.1-hez.
+vector_pls <- function(X){
+  (runif(vector(length = sample(10:20,1))))
+}
