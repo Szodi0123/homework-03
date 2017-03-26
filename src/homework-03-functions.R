@@ -7,6 +7,12 @@
                                 ##FUNCTIONS##
 
 ##Vektorgeneráló függvény a II.1-hez.
-vector_pls <- function(X){
+vector_pls <- function(x){
   (runif(vector(length = sample(10:20,1))))
+}
+
+
+be_normal_pls <- function(x){
+  -1+2*(x-min(x))/
+    (max(x)-min(x))
 }
